@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive /*Google Fonts */
+}
+ 
+.banner {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)), url("https://cdn.pixabay.com/photo/2018/08/31/15/09/read-3644847__340.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    transition: 1s;
+    box-shadow: 0px 3px 5px 0px white;
+}
+
+.content {
+    width: 100%;
+    /* position: absolute; */
+    top: 20%;
+    color: #fff;
+    text-align: center;
+    /* background-color: rgb(23, 66, 23); */
+}
+
+.content h1 {
+    font-size: 55px;
+    
+}
+
+.content p {
+    margin: 20px auto;
+}
+
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600px;
+    background-color: rgba(255,0,0,1);
+    color: white;
+    font-size: 17px;
+    box-shadow: 0px 3px 5px 0px black;
+}
+
+button:hover {
+    color: black;
+    transition: 1s;
+}
+
+/* nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li a:hover {
+    color: black;
+    transition: 1s;
+    box-shadow: 0px 3px 5px 0px white;
+}
+
+.background-img {
+    opacity: 0.7;
+    width: 100%;
+}
+
+.h1 {
+    position: absolute;
+    
+} */
